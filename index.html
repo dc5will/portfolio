@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>William's Portfolio</title>
     <link rel="stylesheet" type='text/css' href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 
 <body>
@@ -15,23 +17,23 @@
         <!-- Title/Logo -->
         <div class='title-container'>
             <h1 class='main-title'>William Wong</h1>
-            <h2 class='sub-title'>Full Stack Developer</h2>
+            <h2 class='sub-title'>Full Stack Developer<h2>
         </div>
 
         <!-- Nav bar -->
         <nav role='navigation' class='page-nav'>
             <ul>
                 <li>
-                    <a class='about-me'>About me</a>
+                    <a href='#about-me' class='about-me'>About me</a>
                 </li>
                 <li>
-                    <a class='portfolio'>Portfolio</a>
+                    <a href='#portfolio-section' class='portfolio'>Portfolio</a>
                 </li>
                 <li>
-                    <a href='https://github.com/dc5will'>GitHub</a>
+                    <a href='https://github.com/dc5will' target="_blank">GitHub</a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/william-wong-6869a257/'>LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/william-wong-6869a257/' target="_blank">LinkedIn</a>
                 </li>
             </ul>
         </nav>
@@ -40,28 +42,35 @@
 <div class='main-container'>
     <main>
     <!-- About me / intro section -->
-        <section class='intro-title'>
+        <section class='intro-title' id="about-me">
             <h3>About Me</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, dolorem hic, ex numquam soluta quisquam illo in molestiae aliquam repudiandae harum maxime nobis necessitatibus fugit repellendus tempore. Dolore, et dolorum?</p>
+            <p>Hi, I'm William and I am currently in the full-time Engineering Immersion Web Development bootcamp at Thinkful. Since building my first gaming PC at the age of 12 in order to gain a competitive edge in Counter-Strike, I have been fascinated by the world of computers. I want to use web development as a platform to intermarry my background in Biochemistry and Economics with my passion for technology.</p>
+        
+            <p>Based in sunny San Diego, you’ll find me taking my dog on picturesque adventures while satiating my hunger for good food wherever I go. When I’m not outside, I can be found engaging in competitive gaming and fantasy sports (specifically, basketball and football). I believe in lifelong self-development, finding ways to maximize efficiency, and following my passion for technology and the latest electronic trends.</p>
         </section>
 
     <!-- Portfolio Gallery section -->
-        <section class='portfolio-gallery'>
+        <section class='portfolio-gallery' id='portfolio-section'>
+            <h3>Portfolio</h3>
             <div class='gallery'>
                 <div class='project'>
                     <div class='img-contain'>
-                        <img class='project-img' src='images/bookmarkapp.png'>
+                        <img class='project-img' src='images/bookmarkapp.png' alt='screenshot of bookmark project'>
                     </div> 
                 </div>
+                <div class='project-text-container'>
                     <h3>Bookmark App</h3>
-                    <p class='proj-description'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi accusantium voluptatum, nihil laborum vitae debitis unde odit suscipit, aliquam eum eius modi fugit obcaecati. In earum corrupti adipisci repudiandae.</p>
+                    <p class='project-title'>Project title: Quiz Application</p>
+                    <p class='proj-description'>Dynamic and accessible quiz application testing the user’s knowledge of literary quotes.</p>
                     <div class='tech-stack'>
-                        <img class='tech-icons' src='/images/html5-logo.png'>
-                        <img class='tech-icons' src='/images/html5-logo.png'>
-                        <img class='tech-icons' src='/images/html5-logo.png'>
+                        <img class='tech-icons' src='/images/html5-logo.png' alt='html logo'>
+                        <img class='tech-icons' src='/images/css.png' alt='css logo'>
+                        <img class='tech-icons' src='/images/javascript.jpg' alt='javascript logo'>
+                        <img class='tech-icons' src='/images/jquery.png' alt='jquery logo'>
                     <div class='github-demo'>
                         
-                        <a href=''>Github</a> || <a href=''>Live Demo</a>
+                        <a href='https://github.com/thinkful-ei-armadillo/will-matt-bookmark' target="_blank">Github</a> || <a href='https://thinkful-ei-armadillo.github.io/will-matt-bookmark/' target="_blank">Live Demo</a>
+                    </div>
                     </div>
                 </div>
         </section>
@@ -71,13 +80,13 @@
     <!-- footer -->
     <footer class='page-footer'>
         <a href='http://www.github.com/dc5will' target='_blank'>
-            <img src='images/html5-logo.png' alt='github logo' class='footer-icon'>
+            <img src='images/github.svg' alt='github logo' class='footer-icon'>
         </a>
-        <a href='http://www.github.com/dc5will' target='_blank'>
-            <img src='images/html5-logo.png' alt='github logo' class='footer-icon'>
+        <a href='https://www.linkedin.com/in/william-wong-6869a257/' target='_blank'>
+            <img src='images/linkedin.svg' alt='linkedin' class='footer-icon'>
         </a>
-        <a href='http://www.github.com/dc5will' target='_blank'>
-            <img src='images/html5-logo.png' alt='github logo' class='footer-icon'>
+        <a href='mailto:william.ypw@gmail.com'>
+            <img src='images/mail.svg' alt='email logo' class='footer-icon'>
         </a>
     </footer>
 
