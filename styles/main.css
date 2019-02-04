@@ -16,8 +16,9 @@ p {
 }
 
 .tech-icons {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
 }
 
 .main-title {
@@ -26,7 +27,7 @@ p {
 
 .intro-title, .project-text-container {
     padding: 20px;
-    margin: 20px 0 20px 0;
+    margin: 60px 0 20px 0;
 }
 
 .project-text-container {
@@ -74,7 +75,6 @@ p {
 }
 
 
-
 h1, h2 {
     color: white;
 }
@@ -92,6 +92,10 @@ h2 {
 h3 {
     font-size: 1.5em;
     margin-bottom: 30px;
+}
+
+.section-header {
+    font-size: 1.8em;
 }
 
 .sub-title {
@@ -131,14 +135,26 @@ li {
     text-align: left;
 }
 
+.project-name {
+    font-weight: bold;
+}
+
 .tech-stack {
     margin: 20px;
+    padding: 15px;
 }
 
 .github-demo {
     margin: 10px;
     text-decoration: none;
     font-size: 18px;
+}
+
+.github-demo > a {
+    text-decoration: none;
+    color: #b55400;
+    font-family: 'Lobster';
+    font-weight: bold;
 }
 
 .page-footer {
@@ -153,6 +169,18 @@ li {
 
 .footer-icon {
     margin: 10px;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.line-break {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 
 ul {
